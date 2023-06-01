@@ -388,22 +388,34 @@ z-index: 1;
     }
 }
 
+@media(max-width: 450px){
+.header-content .head-name{
 
+    font-size: 4rem;
+};
+
+}
 @media(min-width: 450px){
 
-    .title {
-        font-size: 5rem;
-    }
+  
 
     .work-bottom{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 3rem;
         row-gap: 0;
     }
+
+     .vcontainer .title h2{
+       margin-left: 0;
+        font-size: 4rem;
+    } 
+
+
 }
 @media(min-width: 576px){
-    .title h2{
-        font-size: 7rem;
+    .vcontainer .title h2{
+       
+        font-size: 8rem;
     }
     .work-bottom{
         grid-template-columns: repeat(4, 1fr);
