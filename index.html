@@ -566,11 +566,11 @@
           if (play.paused) {
             
             play.play();
-            play.muted=false;
+            play.muted=faltruese;
            
           } else {
             play.paused();
-            play.muted=true;
+            play.muted=false;
             play.currenTime = 0;
           }
         })
