@@ -248,7 +248,8 @@ font-size: 40px;
     margin:1.5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
     overflow: hidden;
-    border-radius: 1rem;
+    /* border: 1px solid #fff; */
+    border-radius: 2rem;
 
 }
 
@@ -261,7 +262,7 @@ border: none;
 cursor:pointer;
 }
 
-.video-container .video video:hover{
+.video-container .video iframe:hover{
 transition: .2s linear;
 transform: scale(1.3);
 }
