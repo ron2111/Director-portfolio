@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Unbounded:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@800&display=swap');
+
 
 :root{
     --transition: all 300ms ease-in-out;
@@ -20,7 +22,7 @@
     height: 100vh;
     z-index: 1;
     overflow: visible;
-    background: #ffffff url('../videos/loader.gif') no-repeat center center;
+    background: #000000 url('../videos/loader.gif') no-repeat center center;
 
 }
 
@@ -287,29 +289,29 @@ z-index: 1;
 #portfolio .title h2{
     font-size: 45px;
    color:var(--light-color);
-   font-family: 'Raleway', sans-serif;
-font-family: 'Unbounded', cursive;
+   font-family: 'Noto Serif Armenian', serif;
+   border-bottom: 3px solid #ffffff;
 }
 
 #portfolio-first .title h2{
     font-size: 45px;
     color:var(--light-color);
-    font-family: 'Raleway', sans-serif;
- font-family: 'Unbounded', cursive;
+    font-family: 'Noto Serif Armenian', serif;
+    border-bottom: 3px solid #ffffff;
  }
 
  #portfolio-second .title h2{
     font-size: 45px;
    color:var(--light-color);
-   font-family: 'Raleway', sans-serif;
-font-family: 'Unbounded', cursive;
+   font-family: 'Noto Serif Armenian', serif;
+   border-bottom: 3px solid #ffffff;
  }
 
  #portfolio-prod .title h2{
     font-size: 45px;
    color:var(--light-color);
-   font-family: 'Raleway', sans-serif;
-font-family: 'Unbounded', cursive;
+   font-family: 'Noto Serif Armenian', serif;
+   border-bottom: 3px solid #ffffff;
  }
 
 /* contact */
