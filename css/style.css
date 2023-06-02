@@ -285,28 +285,28 @@ z-index: 1;
 }
 
 #portfolio .title h2{
-    font-size: 50px;
+    font-size: 45px;
    color:var(--light-color);
    font-family: 'Raleway', sans-serif;
 font-family: 'Unbounded', cursive;
 }
 
 #portfolio-first .title h2{
-    font-size: 50px;
+    font-size: 45px;
     color:var(--light-color);
     font-family: 'Raleway', sans-serif;
  font-family: 'Unbounded', cursive;
  }
 
  #portfolio-second .title h2{
-    font-size: 50px;
+    font-size: 45px;
    color:var(--light-color);
    font-family: 'Raleway', sans-serif;
 font-family: 'Unbounded', cursive;
  }
 
  #portfolio-prod .title h2{
-    font-size: 50px;
+    font-size: 45px;
    color:var(--light-color);
    font-family: 'Raleway', sans-serif;
 font-family: 'Unbounded', cursive;
@@ -456,10 +456,11 @@ font-family: 'Unbounded', cursive;
     font-size: 4rem;
 };
 
+
 }
 @media(min-width: 450px){
 
-  
+   
 
     .work-bottom{
         grid-template-columns: repeat(2, 1fr);
@@ -475,10 +476,15 @@ font-family: 'Unbounded', cursive;
 
 }
 @media(min-width: 576px){
-    .vcontainer .title h2{
+
+    /* #portfolio-first .title {
+        padding-left: 0;
+        font-size: 20px;
+    } */
+    /* .vcontainer .title h2{
        
         font-size: 8rem;
-    }
+    } */
     .work-bottom{
         grid-template-columns: repeat(4, 1fr);
     }
@@ -503,6 +509,11 @@ font-family: 'Unbounded', cursive;
 }
 
 @media(min-width: 768px){
+
+    .title {
+        margin-left: 0;
+        padding-left: 0;
+    }
     .header-content h1{
         font-size: 6rem;
     }
