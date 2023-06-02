@@ -47,7 +47,13 @@ ul{
 }
 a{
     text-decoration: none;
-    color: var(--dark-color);
+    color: #fff;
+   
+}
+
+.social-links li a {
+    font-size: 20px;
+    color: black;
 }
 img{
     width: 100%;
@@ -136,10 +142,27 @@ font-family: 'Unbounded', cursive;
 }
 
 /* about */
+#about {
+    background-color: #000;
+}
+
+#about .title h2 {
+    color: #fff;
+font-size: 40px;
+}
 .about-left{
+    
     margin-bottom: 4rem;
     height: 480px;
     overflow: hidden;
+}
+.about-left img {
+    border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.about-right .lead {
+    color: white;
 }
 /* button down and title -reusable */
 .btn-down{
@@ -174,7 +197,9 @@ font-family: 'Unbounded', cursive;
     height: 4px;
     background-color: var(--dark-color);
 }
-
+/* .portfolio {
+    background-color:  black;
+} */
 /* work */
 #work{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/work-pic.jpg') center/cover no-repeat fixed;
@@ -255,16 +280,49 @@ z-index: 1;
     transition:none;
     transform:translate(-50%,-50%) scale(1);
 }
+#portfolio, #portfolio-first, #portfolio-second, #portfolio-prod {
+    background-color: rgb(0, 0, 0);
+}
 
+#portfolio .title h2{
+    font-size: 50px;
+   color:var(--light-color);
+   font-family: 'Raleway', sans-serif;
+font-family: 'Unbounded', cursive;
+}
 
+#portfolio-first .title h2{
+    font-size: 50px;
+    color:var(--light-color);
+    font-family: 'Raleway', sans-serif;
+ font-family: 'Unbounded', cursive;
+ }
+
+ #portfolio-second .title h2{
+    font-size: 50px;
+   color:var(--light-color);
+   font-family: 'Raleway', sans-serif;
+font-family: 'Unbounded', cursive;
+ }
+
+ #portfolio-prod .title h2{
+    font-size: 50px;
+   color:var(--light-color);
+   font-family: 'Raleway', sans-serif;
+font-family: 'Unbounded', cursive;
+ }
 
 /* contact */
 #contact{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
 }
 
-
+#contact .title h2{
+    color: black;
+    font-size: 40px;
+}
 .contact-content{
+    color: black;
     flex-direction: column;
     align-items: stretch;
 }
@@ -491,4 +549,5 @@ z-index: 1;
         grid-column: 1 / 3;
     }
 }
+
 
