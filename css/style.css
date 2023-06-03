@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Unbounded:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@800&display=swap');
+
 
 
 :root{
@@ -290,28 +291,28 @@ z-index: 1;
 #portfolio .title h2{
     font-size: 45px;
    color:var(--light-color);
-   font-family: 'Noto Serif Armenian', serif;
+   font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
 }
 
 #portfolio-first .title h2{
     font-size: 45px;
     color:var(--light-color);
-    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Geologica', sans-serif;
     border-bottom: 3px solid #ffffff;
  }
 
  #portfolio-second .title h2{
     font-size: 45px;
    color:var(--light-color);
-   font-family: 'Noto Serif Armenian', serif;
+   font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
  }
 
  #portfolio-prod .title h2{
     font-size: 45px;
    color:var(--light-color);
-   font-family: 'Noto Serif Armenian', serif;
+   font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
  }
 
