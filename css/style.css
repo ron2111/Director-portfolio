@@ -95,6 +95,8 @@ h1, h2, h3{
     font-size: 1.7rem;
     font-weight: 300;
     line-height: 1.8;
+    text-align: justify;
+  text-justify: inter-word;
 }
 
 /* header */
@@ -289,31 +291,31 @@ z-index: 1;
 }
 
 #portfolio .title h2{
-    font-size: 25px;
+    font-size: 15px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
 }
 
 #portfolio-first .title h2{
-    font-size: 25px;
+    font-size: 15px;
     color:var(--light-color);
     font-family: 'Geologica', sans-serif;
-    border-bottom: 3px solid #ffffff;
+    /* border-bottom: 3px solid #ffffff; */
  }
 
  #portfolio-second .title h2{
-    font-size: 25px;
+    font-size: 15px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
-   border-bottom: 3px solid #ffffff;
+   /* border-bottom: 3px solid #ffffff; */
  }
 
  #portfolio-prod .title h2{
-    font-size: 25px;
+    font-size: 15px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
-   border-bottom: 3px solid #ffffff;
+   /* border-bottom: 3px solid #ffffff; */
  }
 
 /* contact */
