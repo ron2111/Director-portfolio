@@ -289,28 +289,28 @@ z-index: 1;
 }
 
 #portfolio .title h2{
-    font-size: 45px;
+    font-size: 25px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
 }
 
 #portfolio-first .title h2{
-    font-size: 45px;
+    font-size: 25px;
     color:var(--light-color);
     font-family: 'Geologica', sans-serif;
     border-bottom: 3px solid #ffffff;
  }
 
  #portfolio-second .title h2{
-    font-size: 45px;
+    font-size: 25px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
  }
 
  #portfolio-prod .title h2{
-    font-size: 45px;
+    font-size: 25px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    border-bottom: 3px solid #ffffff;
