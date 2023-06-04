@@ -245,10 +245,15 @@ font-size: 40px;
 
 }
 
+.title2 {
+    color: #fff;
+}
+
 .video-container .video{
-    height: 10rem;
-    width: 17.78rem;
-    margin:1.5 rem;
+    height: 22.4rem;
+    width: 40rem;
+    padding: 0.5rem;
+    
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
     overflow: hidden;
     /* border: 1px solid #fff; */
@@ -256,6 +261,15 @@ font-size: 40px;
 
 }
 
+.video-container .vidInsta {
+    height: 28rem;
+    width: 40rem;
+}
+
+.video-container .vidInsta2 {
+    height: 45rem;
+    width: 40rem;
+}
 .video-container .video iframe{
 height: 100%;
 width:100%;
@@ -291,32 +305,32 @@ z-index: 1;
 }
 
 #portfolio .title h2{
-    text-align: center;
-    font-size: 18px;
+    
+    font-size: 20px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
   
 }
 
 #portfolio-first .title h2{
-    text-align: center;
-    font-size: 18px;
+    
+    font-size: 20px;
     color:var(--light-color);
     font-family: 'Geologica', sans-serif;
     /* border-bottom: 3px solid #ffffff; */
  }
 
  #portfolio-second .title h2{
-    text-align: center;
-    font-size: 18px;
+    margin-left: 2px;
+    font-size: 20px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    /* border-bottom: 3px solid #ffffff; */
  }
 
  #portfolio-prod .title h2{
-    text-align: center;
-    font-size: 18px;
+    
+    font-size: 20px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    /* border-bottom: 3px solid #ffffff; */
