@@ -20,7 +20,7 @@
 #loading {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;;
     z-index: 1;
     overflow: visible;
     background: #000000 url('../videos/loader.gif') no-repeat center center;
