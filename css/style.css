@@ -305,32 +305,32 @@ z-index: 1;
 }
 
 #portfolio .title h2{
-    
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
   
 }
 
 #portfolio-first .title h2{
-    
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
     color:var(--light-color);
     font-family: 'Geologica', sans-serif;
     /* border-bottom: 3px solid #ffffff; */
  }
 
  #portfolio-second .title h2{
-    margin-left: 2px;
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    /* border-bottom: 3px solid #ffffff; */
  }
 
  #portfolio-prod .title h2{
-    
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
    color:var(--light-color);
    font-family: 'Geologica', sans-serif;
    /* border-bottom: 3px solid #ffffff; */
