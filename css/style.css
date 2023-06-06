@@ -152,6 +152,7 @@ font-family: 'Unbounded', cursive;
 }
 
 #about .title h2 {
+   
     color: #fff;
 font-size: 40px;
 }
@@ -212,6 +213,7 @@ font-size: 40px;
 }
 
 #work .title h2, #work h3{
+    text-align: center;
     color: var(--light-color);
 }
 #work .title h2::after{
@@ -236,7 +238,7 @@ font-size: 40px;
 
 .vcontainer .title{
     
-    padding: 0 0 0 5rem;
+    padding: 0 0 0 0rem;
 }
 .video-container {
  display:flex;
