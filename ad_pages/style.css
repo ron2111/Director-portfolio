@@ -183,6 +183,12 @@ a {
         border-radius: 1.5rem;
     
     }
+    .video-container .vidInsta {
+        height: 14.5rem;
+        width: 24rem;
+        
+    }
+
 }
 
 @media(max-width: 400px){
@@ -196,5 +202,12 @@ a {
         /* border: 1px solid #fff; */
         border-radius: 1.5rem;
     
+    }
+
+   
+
+    .video-container .vidInsta2 {
+        height: 22rem;
+        width: 21rem;
     }
 }
