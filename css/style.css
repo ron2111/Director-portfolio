@@ -29,6 +29,7 @@
 
 
 
+  
 
 html{
     font-size: 10px;
@@ -252,7 +253,7 @@ font-size: 40px;
 }
 
 .video-container .video{
-    height: 22.4rem;
+    height: 22.5rem;
     width: 40rem;
     padding: 0.5rem;
     
@@ -302,6 +303,51 @@ z-index: 1;
     transition:none;
     transform:translate(-50%,-50%) scale(1);
 }
+
+.btn-go{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.btn-more{
+   
+width: 100px;
+   height: 40px;
+     background-color : #000000;
+     color: rgb(0, 0, 0);
+     font-size: 15px;
+     padding: 0px 0px;
+     border-radius: 4px;
+ 
+     border: 2px solid #ffffff;
+     transition: all 0.2s linear 0s;
+
+}
+
+.btn-more:before{
+    content: "\f04e";
+    font-family: FontAwesome;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+    
+}
+
+.btn-more:hover {
+    text-indent: -20px;
+}
+    .btn-more:before {
+      opacity: 1;
+      text-indent: 0px;
+    }
 #portfolio, #portfolio-first, #portfolio-second, #portfolio-prod {
     background-color: rgb(0, 0, 0);
 }
