@@ -102,7 +102,7 @@ h1, h2, h3{
 
 /* header */
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/banner2.png') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/banner22.png') center/cover no-repeat;
     justify-content: flex-start;
     align-items: flex-end;
 }
