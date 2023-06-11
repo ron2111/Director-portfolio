@@ -189,6 +189,12 @@ a {
         
     }
 
+    .video-container .vidInsta2 {
+        height: 11rem;
+        width: 10.5rem;
+        
+    }
+
 }
 
 @media(max-width: 400px){
