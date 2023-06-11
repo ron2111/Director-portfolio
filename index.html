@@ -2279,19 +2279,31 @@
               <p class="lead">
                 <i class="fas fa-envelope"></i> rudrakshvashist01@gmail.com
               </p>
-              <form action="">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your name here ..."
-                />
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Your email here"
-                />
-                <input type="submit" class="btn-submit btn" value="Submit" />
-              </form>
+              <!-- contact form -->
+              <div class="formcarry-container">
+                <form
+                  action="form-process.php"
+                  method="POST"
+                  class="formcarry-form"
+                >
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="fullName" required />
+
+                  <label for="email">Your Email Address</label>
+                  <input type="email" id="email" name="email" required />
+
+                  <label for="message">Your Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+
+                  <button type="submit">Send</button>
+                  <!-- <input type="submit" class="btn-submit btn" value="Submit" /> -->
+                </form>
+              </div>
             </div>
 
             <div class="contact-right">
