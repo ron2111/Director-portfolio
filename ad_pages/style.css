@@ -190,8 +190,8 @@ a {
     }
 
     .video-container .vidInsta2 {
-        height: 11rem;
-        width: 10.5rem;
+        height: 28rem;
+        width: 24rem;
         
     }
 
@@ -210,10 +210,17 @@ a {
     
     }
 
+    .video-container .vidInsta {
+        height: 14.5rem;
+        width: 21rem;
+        padding-bottom: 0.8rem;
+    }
+
    
 
     .video-container .vidInsta2 {
         height: 22rem;
         width: 21rem;
+        padding-bottom: 0.8rem;
     }
 }
