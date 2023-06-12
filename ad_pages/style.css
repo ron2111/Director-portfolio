@@ -173,8 +173,8 @@ a {
 
 @media(max-width: 450px){
     .video-container .video{
-        height: 7.5rem;
-        width: 12rem;
+        height: 14.25rem;
+        width: 24rem;
         padding: 0.2rem;
         
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
