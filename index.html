@@ -2282,10 +2282,11 @@
               <!-- contact form -->
               <div class="formcarry-container">
                 <form
-                  action="mailto:2111rohan@gmail.com"
-                  method="POST"
+                  onsubmit="sendEmail(); reset(); return false;"
                   class="formcarry-form"
                 >
+                  <!-- action="./form-process.php"
+                  method="POST" -->
                   <label for="name">Your Name</label>
                   <input type="text" id="name" name="fullName" required />
 
@@ -2457,5 +2458,25 @@
         })
       );
     </script> -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "2111rohan@gmail.com",
+          Password: "pass",
+          To: "rudrakshvashist01@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Website Query",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            "<br> Email: " +
+            document.getElementById("email").value +
+            "<br> Message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert(message));
+      }
+    </script>
   </body>
 </html>
