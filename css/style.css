@@ -224,10 +224,16 @@ font-size: 40px;
 .work-bottom{
     margin-top: 4rem;
     text-align: center;
+    display: flex;
+    
+    justify-content: center;
+    /* padding-left: 28rem; */
 }
 .work-bottom > div .icon img{
     width: 70px;
+   
     margin: 0 auto 1.7rem auto;
+   
     color: #fff;
 }
 /* portfolio */
