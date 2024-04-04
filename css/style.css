@@ -24,6 +24,7 @@
     z-index: 1;
     overflow: visible;
     background: #000000 url('../videos/loader.gif') no-repeat center center;
+    display: none;
 
 }
 
@@ -35,11 +36,23 @@ html{
     font-size: 10px;
     scroll-behavior: smooth;
 }
-body{
+body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.652);
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #000000b1;
+    }
 }
+
 
 button, .btn{
     cursor: pointer;
