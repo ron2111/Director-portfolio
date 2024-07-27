@@ -284,6 +284,14 @@ font-size: 40px;
 
 }
 
+.vidInsta .instagram-media * {
+    display: none; /* Hide all elements */
+}
+
+.vidInsta .instagram-media a {
+    display: block !important; 
+}
+
 .video-container .vidInsta {
     height: 28rem;
     width: 40rem;
